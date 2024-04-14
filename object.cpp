@@ -60,7 +60,6 @@ Object* Cell::Eval(Scope* scope) {
 }
 
 std::string Cell::Serialize() {
-    // todo: Переделать это
     if (!head_) {
         return "(())";
     }
